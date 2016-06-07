@@ -72,9 +72,8 @@ function init(){
 	$('body').html( $(output).html() );
 		
 	$('<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.css">').appendTo('head');
-	$('<link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/Lukas238/markdown-2-kanban/master/src/styles.css">').appendTo('head');
+	$('<link rel="stylesheet" type="text/css" href="https://rawgit.com/Lukas238/markdown-2-kanban/master/src/styles.css">').appendTo('head');
 
-	
 	
 	/*
 	$.get(location.href, function(data){
