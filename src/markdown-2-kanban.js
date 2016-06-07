@@ -65,11 +65,13 @@ function init(){
 	$(output).wrapInner('<div class="row"></div>').find('ul').each(function(){
 		$(this).wrapAll('<div class="col m3"></div>');
 	});
-	$(output).find('.row .col:last').attr('class', 'col m12');
+	var last_col = $(output).find('.row .col:last');
+	$('<div class="col m12"></div>').insertBefore(last_col);
 
 	$('body').html( $(output).html() );
 		
 	$('<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.css">').appendTo('head');
+	//$('<link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/Lukas238/markdown-2-kanban/master/src/styles.css">').appendTo('head');
 	$('<link rel="stylesheet" type="text/css" href="styles.css">').appendTo('head');
 
 	

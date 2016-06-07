@@ -1,12 +1,40 @@
 body{
-	background: #f8f8f8;
+	background: #f5f2f0;
 }
 
-.badge{
+span.badge{
 	font-weight: 300;
     font-size: 0.8rem;
     color: #fff;
     background-color: #26a69a;
     border-radius: 2px;
 	position: inherit;
+	display: inline-block;
+	min-width: 1.5rem;
 }
+span.badge-A,
+span.badge-B,
+span.badge-C,
+span.badge-D,
+span.badge-E{ background-color: #26a69a; }
+span.badge-F,
+span.badge-G,
+span.badge-H,
+span.badge-I,
+span.badge-J{ background-color: #26A69A; }
+span.badge-K,
+span.badge-L,
+span.badge-M,
+span.badge-N,
+span.badge-O{ background-color: #FC9003; }
+span.badge-P,
+span.badge-Q,
+span.badge-R,
+span.badge-S,
+span.badge-T{ background-color: #424242; }
+span.badge-U,
+span.badge-V,
+span.badge-W,
+span.badge-X,
+span.badge-Y,
+span.badge-Z{ background-color: #F7F9F9; }
