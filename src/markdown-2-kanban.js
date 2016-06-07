@@ -39,7 +39,8 @@ function() {
 
 	
 function init(){
-	var org_content = $('body').html();
+	//var org_content = $('body').html();
+	var org_content = $('pre').html();
 	
 	//Badge
 	org_content = org_content.replace(/\(([a-zA-Z])\)/, '<span class="badge badge-$1">$1</span>');
