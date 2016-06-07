@@ -40,10 +40,10 @@ function() {
 	
 function init(){
 	//var org_content = $('body').html();
-	var org_content = $('pre').html();
+	var org_content = $('pre').text();
 	
 	//Badge
-	org_content = org_content.replace(/\(([a-zA-Z])\)/, '<span class="badge badge-$1">$1</span>');
+	org_content = org_content.replace(/\(([a-zA-Z])\)/g, '<span class="badge badge-$1">$1</span>');
 	
 	var output = $('<div />').html( org_content );
 	$(output).find('script').remove();
