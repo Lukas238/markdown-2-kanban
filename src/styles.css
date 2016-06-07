@@ -1,0 +1,12 @@
+body{
+	background: #f8f8f8;
+}
+
+.badge{
+	font-weight: 300;
+    font-size: 0.8rem;
+    color: #fff;
+    background-color: #26a69a;
+    border-radius: 2px;
+	position: inherit;
+}
